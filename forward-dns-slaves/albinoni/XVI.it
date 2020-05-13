@@ -1,0 +1,15 @@
+; zonebestand XVI.it
+@			IN			SOA			albinoni.XVIII.it.		bert.verstraete.ugent.be (
+					1		; serial
+					60		; refresh
+					60		; retry
+					60		; expire
+					60		; minimum
+)
+			IN			NS			albinoni.XVIII.it. ; primary
+			IN			NS			telemann.XVIII.de. ; secondary
+			
+sacral		IN			NS			vivaldi.concerti.XVIII.it.
+vocal		IN			NS			uccelini.sonatas.XVII.it.	
+
+merulo		IN			A           192.168.16.174

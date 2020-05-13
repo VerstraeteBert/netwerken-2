@@ -1,0 +1,16 @@
+; zonebestand concerti.XVIII.it
+@			IN			SOA			albinoni.XVIII.it.		bert.verstraete.ugent.be (
+					1		; serial
+					60		; refresh
+					60		; retry
+					60		; expire
+					60		; minimum
+)
+			IN			NS			albinoni ; primary 
+			IN			NS			telemann.XVIII.de. ; secondary
+
+albinoni	IN			A    		192.168.16.123
+locatelli	IN			A           192.168.16.160
+sammartini	IN			A           192.168.16.213
+tartini		IN			A           192.168.16.235
+vivaldi		IN			A           192.168.16.155

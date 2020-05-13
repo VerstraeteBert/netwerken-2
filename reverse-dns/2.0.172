@@ -1,0 +1,16 @@
+; reverse DNS zonebestand van 2.0.172
+@						IN			SOA		albinoni.concerti.XVIII.it. bert.verstraete.ugent.be ( 
+								1            ; serial number
+		                		900          ; refresh
+		                		600          ; retry
+		                		86400        ; expire
+		                		60           ; default TTL
+)
+								IN			NS		albinoni.concerti.XVIII.it.
+albinoni.concerti.XVIII.it.		IN			A       192.168.16.123
+
+123								IN			PTR     albinoni.concerti.XVIII.it.
+156								IN			PTR		leclair.sonatas.XVIII.fr.
+157								IN			PTR		lehar.opera.XX.hu.
+158								IN			PTR		leoncavallo.opera.XIX.it.
+159								IN			PTR		ligeti.XX.hu.

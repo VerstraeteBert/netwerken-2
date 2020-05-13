@@ -1,0 +1,19 @@
+; zonebestand voor be
+@							IN			SOA			telemann.XVIII.de.		bert.verstraete.ugent.be (
+					1		; serial
+					60		; refresh
+					60		; retry
+					60		; expire
+					60		; minimum
+)
+							IN			NS			telemann.XVIII.de. ; primary
+							IN			NS			albinoni.concerti.XVIII.it. ; secondary
+							
+XVI     					IN			NS			granados.XX.es.
+XVIII						IN			NS			bach.sacral.XVIII.de.
+XIX							IN			NS			ysaye.XIX
+XX          				IN			NS			zelenka.sacral.XVII.cz.
+
+joaquin-desprez.sacral.XV   IN			A			192.168.16.117
+ockeghem.sacral.XV          IN			A			192.168.16.187
+ysaye.XIX					IN			A			192.168.16.130
